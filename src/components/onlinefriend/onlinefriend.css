@@ -1,0 +1,37 @@
+.onlinefrind{
+    list-style: none;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.usertimg{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: relative;
+    z-index: -2;
+}
+.greendot{
+    width: 15px;
+    height: 15px;
+    left: 820px;
+    top: 390px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: lawngreen;
+    /* z-index: -2; */
+    margin-left: 40px;
+
+}
+
+.userimg{
+    display: flex;
+    align-items: center;
+    
+}
+.username{
+    margin-top: 2px !important;
+    font-weight: 700;
+    margin-left: 10px;
+}

@@ -1,0 +1,66 @@
+.rightbar{
+    flex: 2.5;
+   
+}
+.giftimg{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+
+}
+.giftimgcontent{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.gifttxt{
+    margin-top: 20px;
+}
+.addtimg{
+    width: 90%;
+    border-radius: 30px;
+    object-fit: cover;
+    padding: 20px 0 10px 0;
+}
+.onlinetitle{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.onlinefrind{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.usertimg{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: relative;
+    z-index: -2;
+}
+.greendot{
+    width: 15px;
+    height: 15px;
+    left: 820px;
+    top: 400px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: lawngreen;
+    /* z-index: -2; */
+    margin-left: 40px;
+
+}
+.username{
+    margin-top: -30px !important;
+}
+.userimg{
+    display: flex;
+    align-items: center;
+    
+}
+.username{
+    margin-top: 2px !important;
+    font-weight: 700;
+    margin-left: 10px;
+}

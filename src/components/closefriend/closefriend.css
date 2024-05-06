@@ -1,0 +1,18 @@
+.friend{
+    margin-top: 10px;
+}
+.friendlist{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 15px;
+   
+
+}
+.frendimg{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   object-fit: cover;
+   
+}

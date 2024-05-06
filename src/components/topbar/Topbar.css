@@ -1,0 +1,91 @@
+.topbarcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:  #1877f2;
+    height: 55px;
+    position: fixed;
+   
+}
+.topbarleft{
+     display: flex;
+     font-weight: 100px;
+     margin-left: 50px;
+     margin-top: 6px;
+     cursor: pointer;
+     color: white ;
+     
+}
+.topbarcenter{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: white;
+    border-radius: 30px;
+    height: 20px;
+    margin-top: 6px;
+    padding: 20px;
+}
+.topbarsearch{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.input{
+    width: 400px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+.input:focus{
+    border: none;
+    outline: none;
+    overflow: hidden;
+}
+.topbarright{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    
+}
+.topbarheading{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 100;
+    color: white;
+    margin-left: -100px;
+}
+
+.topbaricons{
+     display: flex;
+     justify-content: space-around;
+     gap: 20px;
+     justify-content: center;
+     align-items: center;
+     
+}
+.icons{
+     display: flex;
+     position: relative;
+}
+.notification{
+    background-color: red;
+    position: absolute;
+    right: -8px;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    top: -7px;
+    font-size: 13px;
+    border-radius: 50%;
+}
+.topbarimg{
+     width: 30px;
+     height: 30px;
+     object-fit: cover;
+     border-radius: 50%;
+     cursor: pointer;
+}
